@@ -14,11 +14,15 @@ button {
 
 .container {
   border: 1px solid rgb(99, 99, 99);
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   margin: 20px auto;
   position: relative;
   cursor: crosshair;
+
+  background-image: url("assets/container-bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .pathSvg {
@@ -35,4 +39,3 @@ button {
 
   transform: translateY(-50%) translateX(-50%);
 }
-

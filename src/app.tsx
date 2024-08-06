@@ -94,8 +94,9 @@ function App() {
             {path.length > 0 && (
               <polyline
                 points={path.map((p) => `${p.x},${p.y}`).join(" ")}
-                stroke="green"
+                stroke="#2ecc71"
                 fill="none"
+                strokeWidth={2}
               />
             )}
           </svg>
