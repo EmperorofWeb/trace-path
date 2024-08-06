@@ -1,0 +1,7 @@
+.logs {
+    max-height: 100vh;
+    width: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
